@@ -1,0 +1,23 @@
+{
+  "name": "highspeed-vision-analyzer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "包装机高速相机 BMP 序列影像分析工具（亚像素标记点追踪 / 曲线分析 / 卡料回弹检测）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "tsx test/e2e.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "playwright": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
